@@ -2,7 +2,7 @@ def factorial(num, type="int"):
     answer = 1
     for i in range(1, num+1):
         answer *= i
-    if type == "stg":
+    if type == "str":
         return "Word version of your number is : " + str(answer) + " "
     else:
         return answer
